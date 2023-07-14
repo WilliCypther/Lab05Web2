@@ -1,40 +1,31 @@
-/* login.component.css */
+.container {
+  max-width: 400px; /* Ajusta el valor según tus necesidades */
+  margin: 20px auto; /* Ajusta el valor según tus necesidades */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f8f9fa;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 30px 20px; /* Ajusta el valor según tus necesidades */
+  border-radius: 5px;
+}
 
-h2 {
-    text-align: center;
-  }
-  
-  form {
-    width: 300px;
-    margin: 0 auto;
-  }
-  
-  form div {
-    margin-bottom: 10px;
-  }
-  
-  label {
-    display: block;
-    font-weight: bold;
-  }
-  
-  input[type="text"],
-  input[type="password"] {
-    width: 100%;
-    padding: 5px;
-  }
-  
-  button {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #45a049;
-  }
-  
+.container .login-form {
+  max-width: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container .login-form .icon {
+  font-size: 36px; /* Ajusta el valor según tus necesidades */
+  margin-bottom: 10px; /* Ajusta el valor según tus necesidades */
+}
+
+.container .login-form input:focus,
+.container .login-form button:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  outline: none;
+}
