@@ -1,4 +1,14 @@
-import { Component } from '@angular/core';
+import { Component, NgModule } from '@angular/core';
+import { MatButtonModule } from '@angular/material/button';
+@NgModule({
+  imports: [
+    // otros módulos importados
+    MatButtonModule
+  ],
+  // otros metadatos del módulo
+})
+export class AppModule { }
+
 
 @Component({
   selector: 'app-root',
@@ -6,5 +16,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'laboratorioWeb2WilliamCubero';
-}
+  //title = 'laboratorioWeb2WilliamCubero';
+   //btn: boolean=false;
+   //onButtonClick(){
+    //this.btn=true;
+
+   }
+//}
